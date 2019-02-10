@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "preserveConstEnums": true,
+        "module": "commonjs",
+        "declaration": true,
+        "outDir": "./dist",
+        "sourceMap": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "**/__tests__/*",
+        "node_modules"
+    ]
+}
